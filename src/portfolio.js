@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://mhamzaasif.github.io',
+  title: 'Muhammad Hamza.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Muhammad Hamza',
+  role: 'Full Stack Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    `As a full stack developer with ${new Date().getFullYear() - new Date('01/01/2020').getFullYear()} years of experience, I have worked extensively on the MERN stack, which includes React.js, MongoDB, Express and Node. I am also well-versed in various Javascript frameworks such as Next.js and Nest.js, as well as database technologies like Sequelize. Throughout my career, I have gained expertise in designing and building complex web applications, creating scalable and efficient back-end solutions, and implementing interactive and responsive front-end interfaces. My portfolio website showcases my passion for web development and my proficiency in the latest tools and technologies. It highlights my projects, skills, and achievements, and reflects my dedication to delivering high-quality software solutions to clients.`,
+  resume: 'https://jobee.pk/resume/mhamzaasif',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/muhammad-hamza-asif-javed',
+    github: 'https://github.com/mhamzaasif',
   },
 }
 
@@ -21,28 +21,27 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Leagues.GG',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Leagues.GG offers a user-friendly interface with advanced features, including  online tournaments and matches, and team creation and management. Gamers of all skill levels can join and compete in fair play, while the platform ensures a seamless and immersive gaming experience with advanced security features.',
+    stack: ['React', 'SASS', 'NodeJs', 'Express', 'AWS', 'MongoDB'],
+    livePreview: 'https://leagues.gg',
   },
   {
-    name: 'Project 2',
+    name: 'Aftercart',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Aftercart is a revolutionary product that provides insurance services to Shopify orders. With Aftercart, Shopify merchants can ensure that their customers are protected in case of any unexpected events, such as lost, stolen, or damaged products during shipping.',
+    stack: ['React', 'Typescript', 'NodeJs', 'Express', 'Postgresql', 'Shopify'],
+    livePreview: 'https://aftercart.com',
   },
   {
-    name: 'Project 3',
+    name: 'Cureforu',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'CureForU is a service that allows practicing doctors to share information about rare medical cases and discuss them with doctors who have previously dealt with similar cases.',
+    stack: ['React Native', 'TypeScript'],
+    livePreview: 'https://cureforu.com',
+    androidLink: '',
+    IOSLink: 'https://apps.apple.com/us/app/cureforu/id6446494290'
   },
 ]
 
@@ -57,15 +56,16 @@ const skills = [
   'Redux',
   'SASS',
   'Material UI',
+  'Next JS',
+  'Nest JS',
   'Git',
   'CI/CD',
   'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'm.hamzaasifjaved@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
