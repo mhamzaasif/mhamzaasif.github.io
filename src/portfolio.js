@@ -40,7 +40,7 @@ const projects = [
       'CureForU is a service that allows practicing doctors to share information about rare medical cases and discuss them with doctors who have previously dealt with similar cases.',
     stack: ['React Native', 'TypeScript'],
     livePreview: 'https://cureforu.com',
-    androidLink: '',
+    androidLink: 'https://play.google.com/store/apps/details?id=com.cureforu',
     IOSLink: 'https://apps.apple.com/us/app/cureforu/id6446494290'
   },
 ]
@@ -50,17 +50,26 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
+  'Sass',
+  'Material UI',
+  'Bootstrap',
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Next JS',
+  'Redux',
+  'NodeJs',
   'Nest JS',
+  'Code Igniter',
+  'Postgres',
+  'MongoDB',
   'Git',
   'CI/CD',
   'Jest',
+  'Selenium',
+  'Firebase',
+  'Heroku',
+  'AWS'
 ]
 
 const contact = {
